@@ -47,25 +47,26 @@ For more information about CLAs, please check out Alex Russell’s excellent pos
 In addition to the following guidelines, please follow the conventions already
 established in the code.
 
-- **Spacing**:<br>
-  Use two spaces for indentation. No tabs.
+-   **Spacing**:<br>
+    Use two spaces for indentation. No tabs.
 
-- **Naming**:<br>
-  Keep variable & method names concise & descriptive.<br>
-  Variable names `index`, `array`, & `iteratee` are preferable to
-  `i`, `arr`, & `fn`.
+-   **Naming**:<br>
+    Keep variable & method names concise & descriptive.<br>
+    Variable names `index`, `array`, & `iteratee` are preferable to
+    `i`, `arr`, & `fn`.
 
-- **Quotes**:<br>
-  Single-quoted strings are preferred to double-quoted strings; however,
-  please use a double-quoted string if the value contains a single-quote
-  character to avoid unnecessary escaping.
+-   **Quotes**:<br>
+    Single-quoted strings are preferred to double-quoted strings; however,
+    please use a double-quoted string if the value contains a single-quote
+    character to avoid unnecessary escaping.
 
-- **Comments**:<br>
-  Please use single-line comments to annotate significant additions, &
-  [JSDoc-style](http://www.2ality.com/2011/08/jsdoc-intro.html) comments for
-  functions.
+-   **Comments**:<br>
+    Please use single-line comments to annotate significant additions, &
+    [JSDoc-style](http://www.2ality.com/2011/08/jsdoc-intro.html) comments for
+    functions.
 
 Guidelines are enforced using [ESLint](https://www.npmjs.com/package/eslint):
+
 ```bash
 $ npm run style
 ```
